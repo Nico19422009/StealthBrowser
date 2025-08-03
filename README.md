@@ -42,3 +42,7 @@ go get github.com/webview/webview
 go get github.com/cretz/bine/tor
 
 go run main.go
+
+
+This project is proprietary and not licensed for reuse, redistribution, or modification without permission.
+All rights reserved © 2025 Nico19422009.
