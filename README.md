@@ -12,16 +12,21 @@
 - ⚡ Lightweight and fast (built in Go with native WebView)
 - 🖥️ Works on Windows, Linux and macOS
 - 💻 Splash screen and stealth loading
+- ⭐ Tabs, bookmarks, history
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Getting Started (Windows)
 
-> ⚠️ Tor must be included or installed on the system
+> ⚠️ You **must download the official [Tor Expert Bundle](https://www.torproject.org/download/tor/)**
 
-1. **Download the release**
-2. Run `StealthBrowser.exe` or build from source
-3. Browse anonymously on `.onion` and clearnet sites
+1. Download the [Tor Expert Bundle](https://www.torproject.org/download/tor/)
+2. Extract the archive
+3. Copy `tor.exe` into the `tor/` subfolder inside the StealthBrowser directory  
+   → Final path: `StealthBrowser/tor/tor.exe`
+4. Run `StealthBrowser.exe` or build from source
+
+✅ Now you're ready to browse `.onion` and clearnet sites anonymously!
 
 ---
 
@@ -31,18 +36,14 @@ In today's world, freedom of information is under attack. StealthBrowser is buil
 
 - Protects user identity
 - Bypasses regional restrictions
-- Blocks trackers and censors
+- Blocks trackers and censorship
 
 ---
 
-## 📦 Build From Source
+## 🛠️ Build From Source (Linux/Mac/Windows)
 
 ```bash
 go get github.com/webview/webview
 go get github.com/cretz/bine/tor
 
 go run main.go
-
-
-This project is proprietary and not licensed for reuse, redistribution, or modification without permission.
-All rights reserved © 2025 Nico19422009.
